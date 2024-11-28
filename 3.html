@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let str = 'abc—r67p8', str2 = '';
+        let newStr = str.split('—');
+        for (let i = 0; i < newStr[1].length; i++) {
+            str2 += newStr[1][i].toUpperCase();
+        }
+        console.log(newStr[0] + str2);
+    </script>
+</body>
+
+</html>
